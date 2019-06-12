@@ -23,4 +23,6 @@ When the game ends, all players get kicked off, data of the game (can) get sent 
 
 ### Front end
 
+##### Currently outdated
+
 The front end is a small website that can display the games, teams and players. You can invite people to your team, change your team logo and change your player name. You connect your account via the steam API.
