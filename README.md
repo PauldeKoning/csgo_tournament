@@ -5,11 +5,11 @@ csgo_tournament is a repository for a Counter Strike Tournament system.
 
 It includes a database, a csgo server plugin and a small front-end.
 
-###Database
+### Database
 
 The database is quite small, it has the basics needed to store a game, players, teams, team invites, map veto and give information to the server about who joined.
 
-###CSGO server plugin
+### CSGO server plugin
 
 The main part of this repository is the csgo server plugin. Currenly it is possible to play an entire game with this plugin and a chosen config file.
 
@@ -21,6 +21,6 @@ The players can type .timeout to start a timeout which they have four of.
 
 When the game ends, all players get kicked off, data of the game (can) get sent to the database such as leaderboards. After players are kicked the server goes to idle mode and it waits for new players.
 
-###Front end
+### Front end
 
 The front end is a small website that can display the games, teams and players. You can invite people to your team, change your team logo and change your player name. You connect your account via the steam API.
